@@ -4,8 +4,6 @@
 
 I build AI-powered applications and production-oriented systems that solve real business and operational problems. I focus on the engineering around the model (evaluation, safety, security, and deployment), so AI becomes something people can rely on, not just a chat demo.
 
-📌 Open to AI engineering, applied AI, and backend roles · Lagos, Nigeria (open to remote)
-
 ---
 
 ## ⭐ Featured Projects
