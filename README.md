@@ -32,8 +32,6 @@ The AI reasons, but it never executes. Built to answer one question: how do you 
 
 ### 🏢 Paperless Portal: Enterprise workflow and approvals platform
 
-<!-- TODO: add a repo link, or a note like "Private repo · built for an organisation", plus the stack you used -->
-
 Centralises departmental requests, approvals, and routing across teams.
 
 - Role-based access control with server-side authorization
@@ -74,6 +72,6 @@ I don't stop when the model produces an answer. I measure whether it's right, pu
 
 ## 🤝 Let's connect
 
-[LinkedIn](https://linkedin.com/in/moses-alex) · [Email](mailto:mosesalexy20@gmail.com)
+[LinkedIn][(https://linkedin.com/in/moses-alex) ·](https://www.linkedin.com/in/alex-moses-40a368254?utm_source=share_via&utm_content=profile&utm_medium=member_android) [Email](mailto:mosesalexy20@gmail.com)
 
 ⚡ *Building AI systems that solve real problems.*
