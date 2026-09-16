@@ -1,146 +1,79 @@
-Hi, I'm Alex Moses 👋
+# Hi, I'm Alex Moses 👋
 
-AI Engineer | Generative AI • RAG • AI Agents • Production Applications
+**AI Engineer | Generative AI • RAG • AI Agents • Production Applications**
 
-I build AI-powered applications and production-oriented software systems that solve real business and operational problems.
+I build AI-powered applications and production-oriented systems that solve real business and operational problems. I focus on the engineering around the model (evaluation, safety, security, and deployment), so AI becomes something people can rely on, not just a chat demo.
 
-My work focuses on combining Generative AI, RAG, automation, backend engineering, cloud infrastructure, and modern web applications to turn ideas into usable systems.
-
----
-
-🚀 What I Build
-
-- 🤖 Generative AI applications
-- 🔎 RAG (Retrieval-Augmented Generation) systems
-- 🧠 AI agents and intelligent workflows
-- ⚙️ AI-powered business automation
-- 🏢 Enterprise workflow and administrative platforms
-- ☁️ Cloud and production applications
-- 🔐 Authentication, authorization and secure APIs
-- 📊 AI-powered dashboards and data systems
-- 🔌 Software connected to physical/IoT systems
+📌 Open to AI engineering, applied AI, and backend roles · Lagos, Nigeria (open to remote)
 
 ---
 
-🛠️ Technologies
+## ⭐ Featured Projects
 
-AI & GenAI
+### 🧾 [TaxLearn](https://github.com/alexi517/TAXLEARN): RAG assistant for Nigeria's 2025 tax laws
 
-"AI" (https://img.shields.io/badge/Generative_AI-111111?style=for-the-badge)
-"RAG" (https://img.shields.io/badge/RAG-111111?style=for-the-badge)
-"LLM" (https://img.shields.io/badge/LLM_Applications-111111?style=for-the-badge)
-"AI Agents" (https://img.shields.io/badge/AI_Agents-111111?style=for-the-badge)
+Answers tax questions in plain English with a cited source for every answer, and refuses questions outside the documents instead of guessing.
 
-Development
+- Hybrid retrieval (dense embeddings + BM25, fused with Reciprocal Rank Fusion) and cross-encoder reranking
+- Table-aware ingestion so tax rate tables survive parsing
+- RAGAS evaluation harness on a hand-written ground-truth set, used to guide every retrieval decision
 
-"Python" (https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=white)
-"TypeScript" (https://img.shields.io/badge/TypeScript-111111?style=for-the-badge&logo=typescript&logoColor=white)
-"JavaScript" (https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=white)
-"React" (https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=white)
-"Node.js" (https://img.shields.io/badge/Node.js-111111?style=for-the-badge&logo=node.js&logoColor=white)
+`LlamaIndex` `ChromaDB` `RAGAS` `FastAPI` `Streamlit` `Docker` · 🔗 **[Live demo](https://taxlearngit-czfepmz77agmutui54srz3.streamlit.app/)**
 
-Infrastructure & Data
+### ☀️ [SolarOps AI](https://github.com/alexi517/SolarOps-AI): Safety-gated AI control plane for solar + battery systems
 
-"Docker" (https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker&logoColor=white)
-"Git" (https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=white)
-"Linux" (https://img.shields.io/badge/Linux-111111?style=for-the-badge&logo=linux&logoColor=white)
-"PostgreSQL" (https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql&logoColor=white)
+The AI reasons, but it never executes. Built to answer one question: how do you use a model you can't fully trust on physical systems?
 
----
+- Every recommendation passes independent policy, safety-limit, and risk checks; high-risk actions wait for human approval
+- The build fails if reasoning code imports execution code, enforced by import-linter
+- Forecasting and anomaly models gated behind evaluation thresholds; validated against a physics-based digital twin
 
-⭐ Featured Projects
+`FastAPI` `LangGraph` `React` `PostgreSQL` `Redis` `MLflow` `Prometheus` `Grafana` `Docker`
 
-🚛 Fleet Intelligence Management System
+### 🏢 Paperless Portal: Enterprise workflow and approvals platform
 
-An AI/ML-powered fleet management application designed to provide intelligent operational insights and management capabilities.
+<!-- TODO: add a repo link, or a note like "Private repo · built for an organisation", plus the stack you used -->
 
-Focus: AI/ML • Data • Fleet Operations • Web Application
+Centralises departmental requests, approvals, and routing across teams.
 
----
+- Role-based access control with server-side authorization
+- Approval routing and cross-department workflows
+- Audit logging and management dashboards
 
-🔎 RAG Application
+### 🚛 [Fleet Intelligence](https://github.com/alexi517/fleet-intelligence-management-system): ML decision dashboard for fleet management
 
-A Retrieval-Augmented Generation application designed to allow users to interact with information through an AI-powered retrieval and generation workflow.
+Three models (keep/sell/inspect classification, maintenance cost prediction, and equity forecasting) served through an interactive Streamlit dashboard.
 
-Focus: RAG • LLMs • Embeddings • Retrieval • AI Applications
+`scikit-learn` `Pandas` `Plotly` `Streamlit`
 
 ---
 
-☀️ SolarOps AI
+## 🛠️ Technologies
 
-An intelligent solar operations platform connecting software with solar infrastructure to provide monitoring and operational capabilities.
+**AI & LLMs**
 
-Focus: AI • IoT • Solar Infrastructure • Automation • Web Applications
+![Python](https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=white) ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-111111?style=for-the-badge) ![LangGraph](https://img.shields.io/badge/LangGraph-111111?style=for-the-badge) ![RAGAS](https://img.shields.io/badge/RAGAS-111111?style=for-the-badge) ![ChromaDB](https://img.shields.io/badge/ChromaDB-111111?style=for-the-badge) ![scikit-learn](https://img.shields.io/badge/scikit--learn-111111?style=for-the-badge&logo=scikitlearn&logoColor=white) ![MLflow](https://img.shields.io/badge/MLflow-111111?style=for-the-badge&logo=mlflow&logoColor=white)
 
----
+**Backend & Web**
 
-🧾 Paperless Portal
+![FastAPI](https://img.shields.io/badge/FastAPI-111111?style=for-the-badge&logo=fastapi&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-111111?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=white) ![React](https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-111111?style=for-the-badge&logo=node.js&logoColor=white)
 
-An enterprise administrative workflow platform designed to centralize departmental requests, approvals and routing.
+**Infrastructure & Data**
 
-The system includes:
-
-- Role-based access control
-- Departmental workflows
-- Approval routing
-- Team and department management
-- Server-side authorization
-- Audit logging
-- Management dashboards
-- Cross-department workflows
-
-Focus: Enterprise Software • Workflow Automation • RBAC • Backend Engineering • AI Integration
+![Docker](https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-111111?style=for-the-badge&logo=redis&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-111111?style=for-the-badge&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-111111?style=for-the-badge&logo=grafana&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-111111?style=for-the-badge&logo=linux&logoColor=white) ![Git](https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
-🧠 Engineering Approach
+## 🧠 How I work
 
-I don't focus only on getting an AI model to produce an answer.
+**Problem → Architecture → Implementation → Security → Evaluation → Deployment → Monitoring**
 
-I care about building systems that can actually be used:
-
-Problem → Architecture → AI/Software Implementation → Security → Evaluation → Deployment → Monitoring
-
-Some of the areas I work with include:
-
-- API design
-- Authentication & authorization
-- Database-backed applications
-- RAG architecture
-- AI workflow automation
-- Server-side security
-- Cloud deployment
-- System integration
-- Production debugging
-- AI-assisted software development
+I don't stop when the model produces an answer. I measure whether it's right, put guardrails around what it can do, and make sure the system stays observable once it's running.
 
 ---
 
-📈 Currently Building
+## 🤝 Let's connect
 
-I'm currently focused on developing more advanced enterprise AI applications, particularly systems that combine:
+[LinkedIn](https://linkedin.com/in/moses-alex) · [Email](mailto:mosesalexy20@gmail.com)
 
-LLMs + RAG + Agents + Business Workflows + Automation
-
-My goal is to build AI systems that move beyond simple chat interfaces and become useful components of real-world business operations.
-
----
-
-🤝 Let's Connect
-
-I'm interested in opportunities involving:
-
-- AI Engineering
-- Generative AI
-- RAG / LLM Applications
-- AI Agents
-- Applied AI
-- AI Automation
-- Backend Engineering
-- AI-powered Enterprise Applications
-
-If you're building something in this space, feel free to connect.
-
----
-
-⚡ Building AI systems that solve real problems.
+⚡ *Building AI systems that solve real problems.*
