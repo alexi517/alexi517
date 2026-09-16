@@ -18,7 +18,7 @@ Answers tax questions in plain English with a cited source for every answer, and
 - Table-aware ingestion so tax rate tables survive parsing
 - RAGAS evaluation harness on a hand-written ground-truth set, used to guide every retrieval decision
 
-`LlamaIndex` `ChromaDB` `RAGAS` `FastAPI` `Streamlit` `Docker` · 🔗 **[Live demo](https://taxlearngit-czfepmz77agmutui54srz3.streamlit.app/)**
+`LlamaIndex` `ChromaDB` `RAGAS` `FastAPI` `Streamlit` `Docker` · 🔗 **[
 
 ### ☀️ [SolarOps AI](https://github.com/alexi517/SolarOps-AI): Safety-gated AI control plane for solar + battery systems
 
