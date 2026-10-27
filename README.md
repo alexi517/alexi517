@@ -8,7 +8,7 @@ I build AI-powered applications and production-oriented systems that solve real 
 
 ## ⭐ Featured Projects
 
-### 🧾 [TaxLearn](https://github.com/alexi517/TAXLEARN): RAG assistant for Nigeria's 2025 tax laws
+### 🧾 [TaxLearn](https://github.com/alexi517/TAXLEARN): RAG assistant for tax laws
 
 Answers tax questions in plain English with a cited source for every answer, and refuses questions outside the documents instead of guessing.
 
@@ -70,6 +70,6 @@ I don't stop when the model produces an answer. I measure whether it's right, pu
 
 ## 🤝 Let's connect
 
-[LinkedIn][(https://linkedin.com/in/moses-alex) ·](https://www.linkedin.com/in/alex-moses-40a368254?utm_source=share_via&utm_content=profile&utm_medium=member_android) [Email](mailto:mosesalexy20@gmail.com)
+ [Email](mailto:mosesalexy20@gmail.com)
 
 ⚡ *Building AI systems that solve real problems.*
